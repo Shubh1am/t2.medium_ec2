@@ -4,7 +4,7 @@ variable "ec2_ami"{
 }
 
 variable "instance_type"{
-   default = "t2.micro"
+   default = "t2.medium"
 }
 
 variable "region" {
